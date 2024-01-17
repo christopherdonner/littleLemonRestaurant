@@ -1,13 +1,15 @@
+import { Routes, Route, Link } from "react-router-dom";
+import Homepage from './homepage'
+
 export const Nav = ()=>{
 
-    return <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">Reservations</a></li>
-            <li><a href="#">Order Online</a></li>
-            <li><a href="#">Login</a></li>
-        </ul>
-    </nav>
+    return <div>
+        <nav>
+            <Link to="/" className="nav-item">Homepage</Link>
+        </nav>
+        <Routes>
+            <Route path="/" element={<Homepage />}></Route>
+        </Routes>
+    </div>
+    
 }

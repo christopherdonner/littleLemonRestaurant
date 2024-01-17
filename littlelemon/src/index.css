@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* height: 100vh; */
+  height: 100%;
   /* display: flex; */
 }
 
@@ -78,8 +78,7 @@ border: green dotted 1px;
 
 .specials {
   display: flex;
-  padding: 0px 140px 0px 40px;
-  
+  margin: 0px 140px 0px 40px;
 }
 
 .onlineMenu {
@@ -91,7 +90,7 @@ border: green dotted 1px;
   height: 35px;
 }
 .card {
-  margin: 20px;
+  margin: auto;
   background-color: grey;
   width: 200px;
   padding: 10px;
