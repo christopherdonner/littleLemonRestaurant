@@ -9,6 +9,9 @@ body {
   /* display: flex; */
 }
 
+main {
+  width: 100%;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -100,4 +103,13 @@ border: green dotted 1px;
 
 .card img {
   margin: 2px;
+}
+
+form {
+  display: grid; 
+  max-width: 200px; 
+  gap: 20px;
+  border: #F4CE14;
+  z-index: 20;
+  background-color: beige;
 }
