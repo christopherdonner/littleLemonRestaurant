@@ -106,10 +106,15 @@ border: green dotted 1px;
 }
 
 form {
-  display: grid; 
+  display: inline; 
   max-width: 200px; 
   gap: 20px;
   border: #F4CE14;
   z-index: 20;
   background-color: beige;
+  margin: 10px
+}
+
+form * {
+  margin: 10px
 }
