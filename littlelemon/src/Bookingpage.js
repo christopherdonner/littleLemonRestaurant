@@ -1,6 +1,4 @@
-import l from 'ace-diff';
 import {BookingForm} from './BookingForm.js';
-import { useState, useReducer } from "react";
 
 
 
@@ -10,5 +8,7 @@ console.log(children)
     return (<div><BookingForm 
     availableTimes = {state.availableTimes}
     updateAvailableTimes = {state.updateTimes}
+    dispatch={state.dispatch}
+    submitForm = {state.submitForm}
     /></div>)
 }
