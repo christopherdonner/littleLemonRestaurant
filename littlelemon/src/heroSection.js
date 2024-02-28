@@ -13,7 +13,7 @@ export const Hero = () => {
                 <Link to="/booking" className="nav-item"><button>Make Reservation</button></Link>
         </div>
         <div className="heroImage">
-<img src={heroImage} height="250px"></img>
+<img src={heroImage} height="250px" alt='hero'></img>
         </div>
 
         

@@ -1,4 +1,4 @@
-export const ConfirmedBooking = (props) => {
-    console.log(props);
-    return (<div>Confirmed! See you then!</div>)
+export const ConfirmedBooking = (props, state) => {
+    console.log(state)
+    return <div><h1>Confirmed! See you then!</h1></div>
 }
